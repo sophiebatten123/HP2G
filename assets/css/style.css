@@ -28,18 +28,42 @@
     background-size: cover;
 }
 
-.user-image {
+.user-image-one {
+    background-image: url('../images/man1.jpg');
     height: 200px;
-    width: 200px;
-    justify-content: center;
-    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    border: solid 2px white;
 }
 
-.user-image img{
-    height: auto;
-    width: 100%;
+.user-image-two {
+    background-image: url('../images/man2.jpg');
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    border: solid 2px white;
 }
+
 
 .display-right {
     text-align: right;
+}
+
+.strip {
+    height: 20px;
+    background-color: #eb8e28;
+}
+
+.boiler-image {
+    background-image: url('../images/main2.jpg');
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    border: solid 2px white;
 }
