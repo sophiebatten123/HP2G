@@ -9,6 +9,7 @@
 
 #header-quote {
     margin: auto;
+    color: white;
 }
 
 .header-image {
@@ -66,4 +67,84 @@
     position: relative;
     background-size: cover;
     border: solid 2px white;
+}
+
+.center-text h3 {
+    text-align: center;
+}
+
+.service-one {
+    background-image: url('../images/service-one.jpg');
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    border: solid 2px white;
+}
+
+.service-two {
+    background-image: url('../images/service-two.jpg');
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    border: solid 2px white;
+}
+
+.service-three {
+    background-image: url('../images/service-three.jpg');
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    border: solid 2px white;
+}
+
+.school-logo img{
+    height: 80px;
+    width: auto;
+}
+
+.footer-list a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    font-size: 18px;
+    color: white;
+}
+
+.footer-list li {
+    list-style: none;
+}
+
+.footer-list {
+    padding-left: 0;
+}
+
+.footer-text {
+    color: white;
+}
+
+.icons ul {
+    padding: 0;
+}
+
+.icons li {
+    display: inline;
+    padding: 10px;
+}
+
+.icons li i {
+    color: white;
+    font-size: 20px;
+}
+
+.footer-background {
+    height: 200px;
+    background-color: #eb8e28;
 }
