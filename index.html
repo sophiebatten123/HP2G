@@ -16,13 +16,13 @@
     <title>HP2G</title>
 </head>
 <body>
-    <nav class="navbar-menu navbar-expand-lg navbar-light bg-light font">
+    <nav class="navbar-menu navbar-expand-lg navbar-light bg-light font" id="home">
         <img src="assets/images/logo2.png" alt="logo for the company" width="50">
         <a class="navbar-brand ml-3 mt-3" href="#">
             <h2>HP2G Ltd</h2>
             <p>Commercial Plumbing, Heating and Gas Engineers</p>
         </a>
-        <div class="navbar-toggle">
+        <div class="navbar-toggle large-toggle">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -30,16 +30,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#who">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Our Services</a>
+                <a class="nav-link" href="#services">Our Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
+                <a class="nav-link" href="#reviews">Testimonials</a>
             </li>
           </ul>
         </div>
@@ -49,11 +49,18 @@
             <div class="col-6 header-nav pt-3 pb-3 pl-4 font">
                 <button>GET A QUOTE</button>
             </div>
-            <div class="col-6 header-nav pt-3 font header-right">
+            <div class="col-6 header-nav pt-3 font header-right big-contact">
                 <p class="text-light">
                     <i class="fa-solid fa-envelope"></i> joebatten@hp2g.com
                     <i class="fa-solid fa-phone pl-3"></i> +447563 672632
                 </p>
+            </div>
+            <div class="col-6 pt-2 small-contact">
+                <div class="small-toggle">
+                    <button class="navbar-toggler-small" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span><i class="fa-solid fa-bars p-2"></i></span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -61,20 +68,20 @@
         <div class="row header-image">
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="who">
         <div class="row">
             <div class="col-12 strip mt-2 mb-2"></div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4">
+            <div class="col-4 large-images">
                 <div class="row">
                     <div class="col-6 user-image-one"></div>
                     <div class="col-6 user-image-two"></div>
                 </div>
             </div>
-            <div class="col-8">
+            <div class="col-sm-12 col-md-8">
                 <h3 class="display-right pr-3 mt-2 font">Who We Are</h3>
                 <p class="font display-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices fermentum gravida.
                     Maecenas faucibus in lorem sit amet ultricies. Curabitur id diam metus. Ut posuere odio nunc,
@@ -83,6 +90,14 @@
                     rhoncus aliquam ut, pulvinar et tortor. Pellentesque condimentum quam at nisi tempus laoreet.
                 </p>
             </div>
+            <div class="col-12 small-images">
+                <div class="row">
+                    <div class="col-12 strip mt-2 mb-2"></div>
+                    <div class="col-4 user-image-one"></div>
+                    <div class="col-4"></div>
+                    <div class="col-4 user-image-two"></div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="container-fluid">
@@ -92,7 +107,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-8">
+            <div class="col-sm-12 col-md-8">
                 <h3 class="pr-3 mt-2 font">What We Do</h3>
                 <p class="font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices fermentum gravida.
                     Maecenas faucibus in lorem sit amet ultricies. Curabitur id diam metus. Ut posuere odio nunc,
@@ -101,10 +116,10 @@
                     rhoncus aliquam ut, pulvinar et tortor. Pellentesque condimentum quam at nisi tempus laoreet.
                 </p>
             </div>
-            <div class="col-4 boiler-image"></div>
+            <div class="col-sm-12 col-md-4 boiler-image"></div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="services">
         <div class="row">
             <div class="col-12 strip mt-2 mb-2"></div>
         </div>
@@ -119,7 +134,7 @@
             <div class="col-4 service-three"></div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="reviews">
         <div class="row">
             <div class="col-12 strip mt-2 mb-2"></div>
         </div>
@@ -129,10 +144,10 @@
             <div class="col-12 center-text mb-4">
                 <h3 class="font">Testimonials</h3>
             </div>
-            <div class="col-2 school-logo pl-5">
+            <div class="col-sm-2 school-logo">
                 <img src="assets/images/review-logo.jpg" alt="Image of school logo">
             </div>
-            <div class="col-4">
+            <div class="col-sm-10 col-md-4">
                 <p class="font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor,
                     ex eget volutpat molestie, justo leo condimentum lacus, quis consectetur
                     ex dolor interdum lorem.
@@ -145,7 +160,7 @@
                     <i class="fa-solid fa-star"></i>
                 </p>
             </div>
-            <div class="col-4 display-right border-review">
+            <div class="col-sm-10 col-md-4 display-right border-review small-review">
                 <p class="font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor,
                     ex eget volutpat molestie, justo leo condimentum lacus, quis consectetur
                     ex dolor interdum lorem.
@@ -158,7 +173,7 @@
                     <i class="fa-solid fa-star"></i>
                 </p>
             </div>
-            <div class="col-2 school-logo display-right pr-5">
+            <div class="col-2 school-logo display-right small-review">
                 <img src="assets/images/review.jpeg" alt="Image of school logo">
             </div>
         </div>
@@ -172,11 +187,11 @@
     </div>
     <div class="container-fluid">
         <div class="row footer-background">          
-            <div class="col-xs-4 col-sm-4 col-md-3">
+            <div class="col-sm-4 col-md-3 contact-footer">
               <p class="mt-3 text-light delivery-text font">Contact Us:</p>
-              <p class="footer-text font">HP2G<br/>2A Finsbury Road<br/>Banbury<br/>BH23 6AH</p>
+              <p class="footer-text font">HP2G 2A Finsbury Road, Banbury<br/>BH23 6AH</p>
             </div>
-            <div class="col-xs-4 col-sm-4 col-md-3">
+            <div class="col-sm-4 col-md-3 small-none">
                 <p class="mt-3 text-light font">Information</p>
                 <ul class="mt-3 footer-list">
                     <li><a class="footer-text" href="#">Service One</a></li>
@@ -184,16 +199,16 @@
                     <li><a class="footer-text" href="#">Service Three</a></li>
                 </ul>
             </div>
-            <div class="col-xs-4 col-sm-4 col-md-3">
+            <div class="col-sm-4 col-md-3 small-none">
                 <p class="mt-3 text-light font">Quick Links</p>
                 <ul class="mt-3 footer-list">
-                    <li><a class="footer-text" href="#">Home</a></li>
-                    <li><a class="footer-text" href="#">About Us</a></li>
-                    <li><a class="footer-text" href="#">Our Services</a></li>
-                    <li><a class="footer-text" href="#">Testimonials</a></li>
+                    <li><a class="footer-text" href="#home">Home</a></li>
+                    <li><a class="footer-text" href="#who">About Us</a></li>
+                    <li><a class="footer-text" href="#services">Our Services</a></li>
+                    <li><a class="footer-text" href="#reviews">Testimonials</a></li>
                 </ul>
             </div>
-            <div class="col-xs-4 col-sm-12 col-md-3">
+            <div class="col-sm-12 col-md-3 footer-socials">
                 <p class="mt-3 text-light font">Follow Us</p>
                 <ul class="mt-3 footer-list icons">
                     <li><a href="#" target="_blank" rel="noopener"
