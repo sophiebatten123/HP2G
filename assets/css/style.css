@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+html {
+    height: 100%;
+}
+
+.font {
+    font-family: 'Bitter', serif;
+}
+
+body {
+    font-family: 'Bitter', serif;
+}
+
+.navbar-brand p {
+    font-size: 12px;
+}
+
 .navbar div{
     justify-content: right;
 }
@@ -5,6 +23,18 @@
 .header-nav {
     display: flex;
     background-color: #eb8e28;
+}
+
+.header-nav button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #fff2cc;
+}
+
+.header-right {
+    justify-content: right;
+    text-decoration: none;
 }
 
 #header-quote {
