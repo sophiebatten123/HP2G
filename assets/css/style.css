@@ -131,7 +131,14 @@ body {
     text-align: center;
 }
 
-.service-one {
+.service {
+    color: white;
+    background-color: black;
+    padding: 2px;
+    width: 50%;
+}
+
+#service-one {
     background-image: url('../images/service-one.jpg');
     height: 200px;
     background-position: center;
@@ -139,13 +146,15 @@ body {
     position: relative;
     background-size: cover;
     border: solid 2px white;
+    padding: 0;
 }
 
-.service-one:hover {
-    opacity: 0.4;
+#service-one-text {
+    color: white;
+    display: none;
 }
 
-.service-two {
+#service-two {
     background-image: url('../images/service-two.jpg');
     height: 200px;
     background-position: center;
@@ -153,13 +162,15 @@ body {
     position: relative;
     background-size: cover;
     border: solid 2px white;
+    padding: 0;
 }
 
-.service-two:hover {
-    opacity: 0.4;
+#service-two-text {
+    color: white;
+    display: none;
 }
 
-.service-three {
+#service-three {
     background-image: url('../images/service-three.jpg');
     height: 200px;
     background-position: center;
@@ -169,8 +180,9 @@ body {
     border: solid 2px white;
 }
 
-.service-three:hover {
-    opacity: 0.4;
+#service-three-text {
+    color: white;
+    display: none;
 }
 
 .school-logo img{
