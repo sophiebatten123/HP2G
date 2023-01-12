@@ -31,11 +31,11 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item">
-                <a class="nav-link" href="#who">About Us</a>
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#about">About Us <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#services">Our Services</a>
@@ -46,6 +46,14 @@
           </ul>
         </div>
     </nav>
+    <!-- go to top button -->
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <a href="#top" class="go-to-top" aria-label="Click here to go to the top of the page">
+                <i class="fas fa-angle-double-up"></i>
+            </a>
+        </div>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-6 header-nav pt-3 pb-3 pl-4 font">
@@ -77,8 +85,16 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-8">
+            <div class="col-6 mt-2">
                 <h3 class="pr-3 mt-2 font">What We Do</h3>
+            </div>
+            <div class="col-6 display-right mt-2 pr-5">
+                    <img src="assets/images/safecontractor.png" width="60" class="pr-2">
+                    <img src="assets/images/gassafe.png" width="90" class="pr-2">
+                    <img src="assets/images/wras.jpg" width="80">
+                    <img src="assets/images/dbs.jpg" width="80">
+            </div>
+            <div class="col-8">
                 <p>Primarily we are a maintenance company, we maintain commercial gas appliances such as boilers, high level gas fired heaters, also plumbing and water systems and commercial gas pipework systems providing specific written reporting detailing appliance condition and remedial works that may be required.  But we also provide the essential support to each client of a call out service, should the boilers break down or the heating system develop a fault we are available to attend, and fault find until the issue is rectified.</p>
                 <p>All our clients have plumbing and hot water systems, we monitor the functionality of our clients’ systems to ensure that they are functioning correctly this might include checking TMV3 blender valves used to blend hot water temperatures down to a safe level for handwashing purposes also ensuring that cold water is being stored correctly and that the temperatures are correct as the water issues from the tap.</p>
                 <p>Commercial gas testing is a specialist field, not many engineers have the qualifications required to work on the largest gas installations, but our engineers do, we’re able to investigate any gas issue to any size which some of our clients find very useful as each year we can carry out a full gas tightness test of the whole site or investigate suspected gas leaks without the need to subcontract work to unknown contractors.</p>
@@ -117,7 +133,76 @@
             <div class="col-12 strip"></div>
         </div>
     </div>
-    <div class="carousel">
+    <div class="container-fluid" id="services">
+        <div class="row">
+            <div class="col-12 center-text">
+                <h3 class="font pt-3 pb-2">Our Services</h3>
+                <p class="text-center">We offer a variety of different services, for more information on these services please contact us.</p>
+            </div>
+            <div class="col-4" id="service-one">
+                <h4 class="service">Gas Appliance Servicing & Inspection</h4>
+                <div class="pl-2" id="service-one-text">
+                    <li>Annual Inspection and Written Weporting</li>
+                    <li>Report on Condition</li>
+                    <li>Proactive Suggestions to Promote Energy Efficiency</li>
+                </div>
+            </div>
+            <div class="col-4" id="service-two">
+                <h4 class="service">Statutory Testing</h4>
+                <div class="pl-2" id="service-two-text">
+                    <li>Gas Fired Boilers</li>
+                    <li>Gas Fired Water Heaters</li>
+                    <li>Unvented Hot Water Heaters</li>
+                    <li>Pressurisation Units</li>
+                    <li>Water Systems</li>
+                    <li>TMV3 Blender Valves</li>
+                </div>
+            </div>
+            <div class="col-4" id="service-three">
+                <h4 class="service">Heating Systems</h4>
+                <div class="pl-2" id="service-three-text">
+                    <li>Reactive Callouts</li>
+                    <li>Fault Finding</li>
+                    <li>System Extensions</li>
+                    <li>System Design</li>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4" id="service-four">
+                <h4 class="service">Plumbing Sytems</h4>
+                <div class="pl-2" id="service-four-text">
+                    <li>Reactive Callouts</li>
+                    <li>Fault Finding</li>
+                    <li>Installation</li>
+                    <li>Extension</li>
+                </div>
+            </div>
+            <div class="col-4" id="service-five">
+                <h4 class="service">Reactive Call-Outs</h4>
+                <div class="pl-2" id="service-five-text">
+                    <li>Gas Escape</li>
+                    <li>Boiler Faults</li>
+                    <li>Plumbing Faults</li>
+                    <li>Heating Faults</li>
+                </div>
+            </div>
+            <div class="col-4" id="service-six">
+                <h4 class="service">Survey</h4>
+                <div class="pl-2" id="service-six-text">
+                    <li>Heating Systems</li>
+                    <li>Plumbing Systems</li>
+                    <li>Gas Pipework and Systems</li>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 strip"></div>
+        </div>
+    </div>
+    <div class="carousel" id="reviews">
         <div class="carousel__item font text-center">
             <p>"HP<sub>2</sub>G have the knowhow and knowledge to just get things done, we really don't know where we would be without them!"<br/>
                 <span class="names">Dave Moore (Premises Officer) - Longsands Academy</span><br/>

@@ -1,3 +1,16 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const navBar = document.querySelector("#home");
+    const goTopButton = document.querySelector(".go-to-top");
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > navBar.offsetHeight) {
+          goTopButton.style.display = "flex";
+        } else {
+          goTopButton.style.display = "none";
+        }
+    });
+});
+
 document.querySelectorAll(".carousel").forEach(carousel => {
     const items = carousel.querySelectorAll(".carousel__item");
     const buttonsHTML = Array.from(items, () => {

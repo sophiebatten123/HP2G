@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
           goTopButton.style.display = "none";
         }
-      });
-})
+    });
+});
 
 document.getElementById('service-one').onmouseover = function() {
     document.getElementById('service-one-text').style.display = "block";

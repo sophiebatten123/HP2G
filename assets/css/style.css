@@ -440,13 +440,13 @@ body {
     cursor: pointer;
     height: 10px;
     display: inline-block;
-    background-color: rgba(225,225,225,0.8);
+    background-color: #364f789c;
     border-radius: 50%;
     margin: 0 5px;
 }
 
 .carousel__button--selected {
-    background-color: rgba(225,225,225,1);
+    background-color: #364f78;
 }
 
 /*..................................................Media Queries*/
