@@ -17,6 +17,33 @@ body {
     font-family: 'Bitter', serif;
 }
 
+.go-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.go-to-top:hover {
+    background-color: var(--light-green);
+    color: var(--dark-comp-col);
+    text-decoration: none;
+    opacity: 1;
+}
+
 .navbar-menu {
     position: relative;
     display: flex;
@@ -73,6 +100,16 @@ body {
 .header-image {
     background-image: url('../images/van.jpg');
     height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 2px;
+    background-size: cover;
+}
+
+.header-image-2 {
+    background-image: url('../images/main2.jpeg');
+    height: 300px;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -355,6 +392,11 @@ body {
 .footer-background {
     height: auto;
     background-color: #364f78;
+}
+
+.center-video {
+    text-align: center;
+
 }
 
 /*---------------------------------------------------Carousel*/

@@ -1,3 +1,16 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const navBar = document.querySelector("#home");
+    const goTopButton = document.querySelector(".go-to-top");
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > navBar.offsetHeight) {
+          goTopButton.style.display = "flex";
+        } else {
+          goTopButton.style.display = "none";
+        }
+      });
+})
+
 document.getElementById('service-one').onmouseover = function() {
     document.getElementById('service-one-text').style.display = "block";
 }
