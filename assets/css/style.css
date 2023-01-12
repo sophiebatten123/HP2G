@@ -1,19 +1,20 @@
-@import url("https://fontsforyou.com/fonts/a/Andalus.ttf");
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
 
 html {
     height: 100%;
 }
 
 .font {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Bitter', serif;
 }
 
 #header-title {
     font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Bitter', serif;
 }
 
 .navbar-menu {
@@ -119,6 +120,10 @@ body {
     color: red;
 }
 
+#email a:hover {
+    text-decoration: none;
+}
+
 .subsize {
     font-size: 22px;
 }
@@ -153,6 +158,43 @@ body {
     background-color: #39414f9e;
     padding: 2px;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#service-one:hover {
+    background-image: none;
+    background-color: #364f78;
+    opacity: 0.8;
+}
+
+#service-two:hover {
+    background-image: none;
+    background-color: #364f78;
+    opacity: 0.8;
+}
+
+#service-three:hover {
+    background-image: none;
+    background-color: #364f78;
+    opacity: 0.8;
+}
+
+#service-four:hover {
+    background-image: none;
+    background-color: #364f78;
+    opacity: 0.8;
+}
+
+#service-five:hover {
+    background-image: none;
+    background-color: #364f78;
+    opacity: 0.8;
+}
+
+#service-six:hover {
+    background-image: none;
+    background-color: #364f78;
+    opacity: 0.9;
 }
 
 #service-one {
@@ -162,13 +204,13 @@ body {
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    border: solid 2px white;
+    border: solid 4px white;
     padding: 0;
 }
 
 #service-one-text {
-    color: white;
     display: none;
+    color: white;
 }
 
 #service-two {
@@ -178,7 +220,7 @@ body {
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    border: solid 2px white;
+    border: solid 4px white;
     padding: 0;
 }
 
@@ -194,7 +236,7 @@ body {
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    border: solid 2px white;
+    border: solid 4px white;
     padding: 0;
 }
 
@@ -210,7 +252,7 @@ body {
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    border: solid 2px white;
+    border: solid 4px white;
     padding: 0;
 }
 
@@ -226,7 +268,7 @@ body {
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    border: solid 2px white;
+    border: solid 4px white;
     padding: 0;
 }
 
@@ -242,7 +284,7 @@ body {
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    border: solid 2px white;
+    border: solid 4px white;
     padding: 0;
 }
 
@@ -313,6 +355,56 @@ body {
 .footer-background {
     height: auto;
     background-color: #364f78;
+}
+
+/*---------------------------------------------------Carousel*/
+
+.carousel {
+    position: relative;
+}
+
+.carousel__item {
+    height: 140px;
+    background-color: white;
+    padding: 1em;
+    display: none;
+    color: #364f78;
+}
+
+.carousel__item--selected {
+    display: block;
+}
+
+.names {
+    font-size: 14px;
+}
+
+.stars {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.carousel__nav {
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.carousel__button {
+    width: 10px;
+    cursor: pointer;
+    height: 10px;
+    display: inline-block;
+    background-color: rgba(225,225,225,0.8);
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.carousel__button--selected {
+    background-color: rgba(225,225,225,1);
 }
 
 /*..................................................Media Queries*/
