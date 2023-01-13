@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
 
+/*--------------------------------------------------------------------------------Main*/
+
 html {
     height: 100%;
 }
@@ -8,10 +10,6 @@ html {
     font-family: 'Bitter', serif;
 }
 
-#header-title {
-    font-size: 48px;
-    font-family: 'Times New Roman', Times, serif;
-}
 
 body {
     font-family: 'Bitter', serif;
@@ -42,6 +40,13 @@ body {
     color: var(--dark-comp-col);
     text-decoration: none;
     opacity: 1;
+}
+
+/*-----------------------------------------------------------------------------Header*/
+
+#header-title {
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .navbar-menu {
@@ -77,14 +82,14 @@ body {
     background-color: #364f78;
 }
 
-.header-nav button {
-    border-radius: 5px;
-    border: 2px solid black;
-}
-
 .small-contact {
     display: none;
     text-align: right;
+}
+
+.contact {
+    background-color: red;
+    color: white;
 }
 
 .header-right {
@@ -99,7 +104,7 @@ body {
 
 .header-image {
     background-image: url('../images/van.jpg');
-    height: 500px;
+    height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -133,8 +138,28 @@ body {
     display: flex;
 }
 
-.whoimages {
+#boiler1 {
+    background-image: url('../images/boiler1.jpeg');
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
     border: solid 2px white;
+}
+
+#boiler2 {
+    background-image: url('../images/boiler2.jpeg');
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    border: solid 2px white;
+}
+
+.whats {
+    display: none;
 }
 
 .more {
@@ -339,13 +364,6 @@ body {
     border-left: solid 2px #364f78;
 }
 
-.footer-quote button {
-    background-color: white;
-    color: black;
-    border-radius: 5px;
-    border: 2px solid black;
-}
-
 .footer-quote {
     text-align: center;
 }
@@ -360,7 +378,9 @@ body {
 }
 
 .gold {
-    color: #d8d826;
+    color: #ffe707;
+    font-size: 18px;
+    padding-top: 10px;
 }
 
 .footer-list li {
@@ -396,7 +416,10 @@ body {
 
 .center-video {
     text-align: center;
+}
 
+.large-about-none {
+    display: none;
 }
 
 /*---------------------------------------------------Carousel*/
@@ -449,7 +472,38 @@ body {
     background-color: #364f78;
 }
 
+.small-review {
+    display: none;
+}
+
 /*..................................................Media Queries*/
+
+@media(max-width: 1550px) {
+    .boiler-images {
+        padding-top: 10px;
+    }
+}
+
+@media(max-width: 1430px) {
+    .header-image {
+        height: 600px;
+    }
+}
+
+@media(max-width: 1230px) {
+    .boiler-images {
+        padding-top: 25px;
+    }
+    .padding-md {
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 1090px) {
+    .header-image {
+        height: 500px;
+    }
+}
 
 @media(max-width: 992px) {
     .navbar-toggle {
@@ -459,14 +513,57 @@ body {
         text-align: right;
         float: right;
     }
+    .carousel__item {
+        height: 160px;
+    }
+}
+
+@media(max-width: 910px) {
+    .header-image {
+        height: 400px;
+    }
+}
+
+@media(max-width: 768px) {
+    .whats {
+        display: block;
+    }
+    .whatl {
+        display: none;
+    }
+    #boiler1 {
+        height: 250px;
+    }
+    #boiler2 {
+        height: 250px;
+    }
+    .small-test {
+        display: none;
+    }
+    .large-test {
+        display: none;
+    }
+    .small-review {
+        display: block;
+    }
+    .small-about-none {
+        display: none;
+    }
+    .large-about-none {
+        display: block;
+    }
 }
 
 @media(max-width: 743px) {
     .small-contact {
         display: block;
+        background-color: #364f78;
     }
     .big-contact {
         display: none;
+    }
+    .header-image {
+        height: 300px;
     }
 }
 
@@ -482,14 +579,29 @@ body {
         text-align: center;
         padding-bottom: 5px;
     }
-    .small-review {
-        display: none;
+    .font-header {
+        font-size: 25px;
+    }
+    .font-text {
+        font-size: 14px;
     }
 }
 
 @media (max-width: 595px) {
     .navbar-toggle {
         width: 30%;
+    }
+    #header-title {
+        font-size: 35px;
+    }
+    #subheading {
+        font-size: 12px;
+    }
+    #logo-top {
+        width: 25px;
+    }
+    .contact {
+        font-size: 14px;
     }
 }
 
@@ -499,6 +611,12 @@ body {
     }
     .contact-footer {
         text-align: center;
+    }
+    .header-image {
+        height: 250px;
+    }
+    .review-text {
+        font-size: 14px;
     }
 }
 
@@ -523,5 +641,17 @@ body {
 @media (max-width: 459px) {
     .navbar-brand p {
         font-size: 10px;
+    }
+    .header-image {
+        height: 200px;
+    }
+    .carousel__item {
+        height: 180px;
+    }
+    .gold {
+        font-size: 12px;
+    }
+    .carousel__item {
+        height: 190px;
     }
 }

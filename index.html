@@ -19,10 +19,10 @@
 </head>
 <body>
     <nav class="navbar-menu navbar-expand-lg navbar-light bg-light font" id="home">
-        <img src="assets/images/logo.png" alt="logo for the company" width="30">
+        <img id="logo-top" src="assets/images/logo.png" alt="logo for the company" width="30">
         <a class="navbar-brand ml-3" href="#home">
             <h1 id="header-title">HP<sub id="red-subscript" class="subsize">2</sub>g Ltd</h1>
-            <h6>Commercial Heating Plumbing <span id="red-subscript">and</span> Gas Services</h6>
+            <h6 id="subheading">Commercial Heating Plumbing <span id="red-subscript">and</span> Gas Services</h6>
         </a>
         <div class="navbar-toggle large-toggle">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,9 +57,9 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-6 header-nav pt-3 pb-3 pl-4 font">
-                <button>Contact Us</button>
+                <button class="pl-2 pr-2 pt-2 pb-2 contact"><i class="fa-solid fa-envelope"></i> CONTACT US</button>
             </div>
-            <div class="col-6 header-nav pt-3 font header-right big-contact">
+            <div class="col-6 header-nav pt-4 font header-right big-contact">
                 <p class="text-light" id="email">
                     <a href="mailto:info@hp2g.co.uk" class="text-light"><i class="fa-solid fa-envelope"></i> info@hp2g.co.uk</a>
                     <i class="fa-solid fa-phone pl-3"></i> 01234 376855
@@ -85,29 +85,30 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4 large-images">
+            <div class="col-3 large-images">
                 <div class="row">
                     <div class="col-12 user-image-one"></div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-8 display-right">
-                <h3 class="display-right pr-3 mt-2 font">Who We Are</h3>
-                <p class="font display-right">HP2g Ltd is a mechanical engineering company specialising in commercial heating, plumbing and gas systems, we are, primarily, a maintenance company specialising in supporting schools, factories, and healthcare establishments.<br/>
+            <div class="col-sm-12 col-md-9 display-right">
+                <h3 class="display-right pr-3 mt-2 font-header font">Who We Are</h3>
+                <hr/>
+                <p class="font display-right font-text">HP2g Ltd is a mechanical engineering company specialising in commercial heating, plumbing and gas systems, we are, primarily, a maintenance company specialising in supporting schools, factories, and healthcare establishments.<br/>
                     <br/>Formed in 2008 by two engineers who had worked together for a number of years previously, they both felt that a bespoke service was required for their clients who needed, or would benefit from, a one stop shop for gas appliance servicing and reactive call outs for heating, plumbing and gas issues.<br/>
                     <br/>We are gas safe registered and fully qualified to work on a range of gas appliances and can carry out gas testing and fault finding on large installations that use both natural and liquid petroleum gas. 
                 </p>
-                <button class="more font"><b>Contact Us <i class="fa-solid fa-arrow-right"></i></b></button>
+                <button class="more font">Contact Us <i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid large-test">
         <div class="row">
             <div class="col-12 strip"></div>
         </div>
     </div>
-    <div class="carousel">
+    <div class="carousel large-test">
         <div class="carousel__item font text-center">
-            <p>"HP<sub>2</sub>G have the knowhow and knowledge to just get things done, we really don't know where we would be without them!"<br/>
+            <p class="review-text">"HP<sub>2</sub>G have the knowhow and knowledge to just get things done, we really don't know where we would be without them!"<br/>
                 <span class="names">Dave Moore (Premises Officer) - Longsands Academy</span><br/>
                 <span class="stars"><i class="fa-solid fa-star gold"></i>
                 <i class="fa-solid fa-star gold"></i>
@@ -118,7 +119,7 @@
                 </p>
         </div>
         <div class="carousel__item font text-center">
-            <p>"HP<sub>2</sub>G always go the extra mile, nothing is too much trouble."<br/>
+            <p class="review-text">"HP<sub>2</sub>G always go the extra mile, nothing is too much trouble."<br/>
             <span class="names">Simon Law (Operations Manager) - Bensons for Beds</span><br/>
             <span class="stars"><i class="fa-solid fa-star gold"></i>
             <i class="fa-solid fa-star gold"></i>
@@ -138,25 +139,36 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12 col-md-8">
-                <h3 class="pr-3 mt-2 font">What We Do</h3>
-                <p class="font">Primarily we are a maintenance company, we maintain commercial gas appliances such as boilers, high level gas fired heaters, also plumbing and water systems and commercial gas pipework systems providing specific written reporting detailing appliance condition and remedial works that may be required.  But we also provide the essential support to each client of a call out service, should the boilers break down or the heating system develop a fault we are available to attend, and fault find until the issue is rectified.<br/>
+                <h3 class="pr-3 mt-2 font font-header">What We Do</h3>
+                <hr/>
+                <p class="font font-text padding-md">Primarily we are a maintenance company, we maintain commercial gas appliances such as boilers, high level gas fired heaters, also plumbing and water systems and commercial gas pipework systems providing specific written reporting detailing appliance condition and remedial works that may be required.  But we also provide the essential support to each client of a call out service, should the boilers break down or the heating system develop a fault we are available to attend, and fault find until the issue is rectified.<br/>
                 <br/>All our clients have plumbing and hot water systems, we monitor the functionality of our clients’ systems to ensure that they are functioning correctly this might include checking TMV3 blender valves used to blend hot water temperatures down to a safe level for handwashing purposes also ensuring that cold water is being stored correctly and that the temperatures are correct as the water issues from the tap.
                 </p>
                 <div class="row">
-                    <div class="col-6 pl-5 pt-2 pb-0">
+                    <div class="col-md-4 col-sm-12 col-xs-12 font pt-3">
+                        <a href="about.html" class="more">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-12 pt-2 pb-2 pt-0 display-right whatl">
                         <img src="assets/images/safecontractor.png" width="60" class="pr-2">
                         <img src="assets/images/gassafe.png" width="90" class="pr-2">
                         <img src="assets/images/wras.jpg" width="80">
                         <img src="assets/images/dbs.jpg" width="80">
                     </div>
-                    <div class="col-6 font display-right pt-3">
-                        <a href="about.html" class="more"><b>Learn More <i class="fa-solid fa-arrow-right"></i></b></a>
-                    </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4 images">
-                <img class="whoimages" src="assets/images/boiler1.jpeg" width="50%">
-                <img class="whoimages" src="assets/images/boiler2.jpeg" width="50%">
+            <div class="col-sm-12 col-md-4">
+                <div class="row boiler-images">
+                    <div class="col-6" id="boiler1"></div>
+                    <div class="col-6" id="boiler2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row what">
+            <div class="col-md-8 col-sm-12 col-xs-12 pt-2 pb-2 pt-0 text-center whats">
+                <img src="assets/images/safecontractor.png" width="60" class="pr-2">
+                <img src="assets/images/gassafe.png" width="80" class="pr-2">
+                <img src="assets/images/wras.jpg" width="70">
+                <img src="assets/images/dbs.jpg" width="70">
             </div>
         </div>
     </div>
@@ -168,20 +180,20 @@
     <div class="container-fluid" id="services">
         <div class="row">
             <div class="col-12 center-text">
-                <h3 class="font pt-3 pb-2">Our Services</h3>
-                <p class="text-center">We offer a variety of different services, for more information on these services please contact us.</p>
+                <h3 class="font pt-3 pb-2 font-header">Our Services</h3>
+                <p class="text-center font-text">We offer a variety of different services, for more information on these services please contact us.</p>
             </div>
-            <div class="col-4" id="service-one">
+            <div class="col-lg-4 col-md-6" id="service-one">
                 <h4 class="service">Gas Appliance Servicing & Inspection</h4>
-                <div class="pl-2" id="service-one-text">
+                <div class="pl-2 font-text" id="service-one-text">
                     <li>Annual Inspection and Written Weporting</li>
                     <li>Report on Condition</li>
                     <li>Proactive Suggestions to Promote Energy Efficiency</li>
                 </div>
             </div>
-            <div class="col-4" id="service-two">
+            <div class="col-lg-4 col-md-6" id="service-two">
                 <h4 class="service">Statutory Testing</h4>
-                <div class="pl-2" id="service-two-text">
+                <div class="pl-2 font-text" id="service-two-text">
                     <li>Gas Fired Boilers</li>
                     <li>Gas Fired Water Heaters</li>
                     <li>Unvented Hot Water Heaters</li>
@@ -190,38 +202,36 @@
                     <li>TMV3 Blender Valves</li>
                 </div>
             </div>
-            <div class="col-4" id="service-three">
+            <div class="col-lg-4 col-md-6" id="service-three">
                 <h4 class="service">Heating Systems</h4>
-                <div class="pl-2" id="service-three-text">
+                <div class="pl-2 font-text" id="service-three-text">
                     <li>Reactive Callouts</li>
                     <li>Fault Finding</li>
                     <li>System Extensions</li>
                     <li>System Design</li>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-4" id="service-four">
+            <div class="col-lg-4 col-md-6" id="service-four">
                 <h4 class="service">Plumbing Sytems</h4>
-                <div class="pl-2" id="service-four-text">
+                <div class="pl-2 font-text" id="service-four-text">
                     <li>Reactive Callouts</li>
                     <li>Fault Finding</li>
                     <li>Installation</li>
                     <li>Extension</li>
                 </div>
             </div>
-            <div class="col-4" id="service-five">
+            <div class="col-lg-4 col-md-6" id="service-five">
                 <h4 class="service">Reactive Call-Outs</h4>
-                <div class="pl-2" id="service-five-text">
+                <div class="pl-2 font-text" id="service-five-text">
                     <li>Gas Escape</li>
                     <li>Boiler Faults</li>
                     <li>Plumbing Faults</li>
                     <li>Heating Faults</li>
                 </div>
             </div>
-            <div class="col-4" id="service-six">
+            <div class="col-lg-4 col-md-6" id="service-six">
                 <h4 class="service">Survey</h4>
-                <div class="pl-2" id="service-six-text">
+                <div class="pl-2 font-text" id="service-six-text">
                     <li>Heating Systems</li>
                     <li>Plumbing Systems</li>
                     <li>Gas Pipework and Systems</li>
@@ -234,16 +244,16 @@
             <div class="col-12 strip mt-2 mb-2"></div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid small-test">
         <div class="row">
             <div class="col-12 center-text mb-4">
-                <h3 class="font">Testimonials</h3>
+                <h3 class="font font-header">Testimonials</h3>
             </div>
             <div class="col-sm-2 school-logo">
                 <img src="assets/images/review-logo.jpg" alt="Image of school logo">
             </div>
             <div class="col-sm-10 col-md-4">
-                <p class="font">Our school is more than 60 years old and needs expert care and attention, most companies wouldn’t come within a mile of it but HP2g have the knowhow and knowledge to just get things done, we really don't know where we would be without them!<br/>
+                <p class="font font-text">Our school is more than 60 years old and needs expert care and attention, most companies wouldn’t come within a mile of it but HP2g have the knowhow and knowledge to just get things done, we really don't know where we would be without them!<br/>
                     <br/>Dave Moore
                     <br/>Premises Manager
                 </p>
@@ -255,8 +265,8 @@
                     <i class="fa-solid fa-star gold"></i>
                 </p>
             </div>
-            <div class="col-sm-10 col-md-4 display-right border-review small-review">
-                <p class="font">We have used HP2g for more than 10 years for all our heating, plumbing and gas services here in Huntingdon, they really can’t do enough and always go the extra mile, nothing is too much trouble.<br/>
+            <div class="col-sm-10 col-md-4 display-right border-review">
+                <p class="font font-text">We have used HP2g for more than 10 years for all our heating, plumbing and gas services here in Huntingdon, they really can’t do enough and always go the extra mile, nothing is too much trouble.<br/>
                     <br/>Simon Law
                     <br/>Operations Manager
                 </p>
@@ -268,15 +278,40 @@
                     <i class="fa-solid fa-star gold"></i>
                 </p>
             </div>
-            <div class="col-2 school-logo display-right small-review">
+            <div class="col-2 school-logo display-right">
                 <img src="assets/images/bblogo.png" alt="Image of school logo">
             </div>
         </div>
     </div>
+    <div class="carousel small-review">
+        <div class="carousel__item font text-center">
+            <p class="review-text">"HP<sub>2</sub>G have the knowhow and knowledge to just get things done, we really don't know where we would be without them!"<br/>
+                <span class="names">Dave Moore (Premises Officer) - Longsands Academy</span><br/>
+                <span class="stars"><i class="fa-solid fa-star gold"></i>
+                <i class="fa-solid fa-star gold"></i>
+                <i class="fa-solid fa-star gold"></i>
+                <i class="fa-solid fa-star gold"></i>
+                <i class="fa-solid fa-star gold"></i>
+                </span>
+                </p>
+        </div>
+        <div class="carousel__item font text-center">
+            <p class="review-text">"HP<sub>2</sub>G always go the extra mile, nothing is too much trouble."<br/>
+            <span class="names">Simon Law (Operations Manager) - Bensons for Beds</span><br/>
+            <span class="stars"><i class="fa-solid fa-star gold"></i>
+            <i class="fa-solid fa-star gold"></i>
+            <i class="fa-solid fa-star gold"></i>
+            <i class="fa-solid fa-star gold"></i>
+            <i class="fa-solid fa-star gold"></i>
+            </span>
+            </p>
+        </div>
+        <div class="carousel__item font">Content 3</div>
+    </div>
     <div class="container-fluid">
         <div class="row mt-2 mb-2">
             <div class="col-12 font footer-quote">
-                <button>Contact Us</button>
+                <button class="pl-2 pr-2 pt-2 pb-2 contact"><i class="fa-solid fa-envelope"></i> CONTACT US</button>
             </div>
         </div>
     </div>
