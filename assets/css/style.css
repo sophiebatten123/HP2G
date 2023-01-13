@@ -91,9 +91,19 @@ body {
     text-align: right;
 }
 
+.contact-container-link a:hover {
+    text-decoration: none;
+}
+
+.contact-container a:hover {
+    text-decoration: none;
+    background-color: #e3eaf1;
+}
+
 .contact {
     background-color: white;
     color: black;
+    border: solid 2px black;
 }
 
 .header-right {
