@@ -61,10 +61,6 @@ body {
     width: 50%;
 }
 
-.navbar-brand p {
-    font-size: 12px;
-}
-
 .navbar-menu div{
     justify-content: right;
 }
@@ -97,13 +93,8 @@ body {
     text-decoration: none;
 }
 
-#header-quote {
-    margin: auto;
-    color: white;
-}
-
 .header-image {
-    background-image: url('../images/van.jpg');
+    background-image: url('../images/van.webp');
     height: 800px;
     background-position: center;
     background-repeat: no-repeat;
@@ -122,24 +113,12 @@ body {
     background-size: cover;
 }
 
-.full-width {
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: cover;
-}
-
 .small-images {
     display: none;
 }
 
-.images {
-    display: flex;
-}
-
 #boiler1 {
-    background-image: url('../images/boiler1.jpeg');
+    background-image: url('../images/boiler1.webp');
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -149,7 +128,7 @@ body {
 }
 
 #boiler2 {
-    background-image: url('../images/boiler2.jpeg');
+    background-image: url('../images/boiler2.webp');
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -169,7 +148,7 @@ body {
 }
 
 .user-image-one {
-    background-image: url('../images/who.jpg');
+    background-image: url('../images/who.webp');
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -199,16 +178,6 @@ body {
     background-color: #364f78;
     margin-top: 2px;
     margin-bottom: 2px;
-}
-
-.boiler-image {
-    background-image: url('../images/mainimage.jpeg');
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: cover;
-    border: solid 2px white;
 }
 
 .center-text h3 {
@@ -260,7 +229,7 @@ body {
 }
 
 #service-one {
-    background-image: url('../images/gasapplianceservicing.jpg');
+    background-image: url('../images/gasapplianceservicing.webp');
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -276,7 +245,7 @@ body {
 }
 
 #service-two {
-    background-image: url('../images/statutorytesting.jpg');
+    background-image: url('../images/statutorytesting.webp');
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -292,7 +261,7 @@ body {
 }
 
 #service-three {
-    background-image: url('../images/heatingsystems.jpg');
+    background-image: url('../images/heatingsystems.webp');
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -308,7 +277,7 @@ body {
 }
 
 #service-four {
-    background-image: url('../images/plumbing.jpg');
+    background-image: url('../images/plumbing.webp');
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -324,7 +293,7 @@ body {
 }
 
 #service-five {
-    background-image: url('../images/reactive.jpg');
+    background-image: url('../images/reactive.webp');
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -340,7 +309,7 @@ body {
 }
 
 #service-six {
-    background-image: url('../images/survey.jpg');
+    background-image: url('../images/survey.webp');
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -393,10 +362,6 @@ body {
 
 .footer-text {
     color: white;
-}
-
-.icons ul {
-    padding: 0;
 }
 
 .icons li {
