@@ -92,7 +92,7 @@ body {
 }
 
 .vacancies {
-    height: 600px;
+    height: auto;
 }
 
 .vacancy {
