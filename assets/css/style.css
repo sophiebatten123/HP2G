@@ -91,6 +91,20 @@ body {
     text-align: right;
 }
 
+.vacancies {
+    height: 600px;
+}
+
+.vacancy {
+    border: solid 2px black;
+    height: auto;
+    background-color: #364f7812;
+}
+
+.vacancy-header {
+    font-size: 22px;
+}
+
 .contact-container-link a:hover {
     text-decoration: none;
 }
